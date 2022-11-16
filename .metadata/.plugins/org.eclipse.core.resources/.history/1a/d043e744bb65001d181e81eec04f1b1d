@@ -1,0 +1,19 @@
+package com.devs.backend.services;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.devs.backend.entities.Sale;
+import com.devs.backend.repositories.SaleRepository;
+
+public class SaleService {
+
+	@Autowired
+	private SaleRepository saleRepository;
+
+	public List<Sale> findSales() {
+		return saleRepository.findAll();
+	}
+
+}

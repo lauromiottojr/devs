@@ -1,0 +1,13 @@
+package com.devs.backend.services;
+
+import java.util.List;
+
+import com.devs.backend.entities.Sale;
+
+public class SaleService {
+
+	public List<Sale> findSales() {
+		return null;
+	}
+
+}
