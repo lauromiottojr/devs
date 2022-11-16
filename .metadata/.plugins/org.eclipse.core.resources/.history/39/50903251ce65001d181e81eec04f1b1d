@@ -1,0 +1,14 @@
+spring.datasource.url=jdbc:h2:mem:testdb
+spring.datasource.username=sa
+spring.datasource.password=
+
+spring.h2.console.enabled=true
+spring.h2.console.path=/h2-console
+
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
+
+twilio.sid=ACbb6305a1d274a7fa2f28ee6fb6582315
+twilio.key=eb5d1d36b2c55533b1abcee65f0753d7
+twilio.phone.from=+18585443548
+twilio.phone.to=+5517996411117
