@@ -1,0 +1,14 @@
+package com.devs.backend.entities;
+
+import java.util.Date;
+
+public class Sale {
+
+	private Long id;
+	private String sellerName;
+	private Integer visited;
+	private Integer deals;
+	private Integer amount;
+	private Date date;
+
+}
